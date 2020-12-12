@@ -1,0 +1,66 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+main{
+    width : 100vw;
+    height : 100vh;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.heading { 
+    font-size:4rem;
+    background-image: linear-gradient(to left,purple,orange);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+.underline{
+    width : 100px;
+    height : 4px;
+    background-image : linear-gradient(purple,orange);
+    margin-bottom :20px;
+
+}
+.imgPerson{
+    height: 200px;
+
+    border-radius: 100px;
+    box-shadow: 5px -5px 5px red;
+    margin-bottom: 10px;
+}
+.article{
+    background-image: linear-gradient(rgb(163, 5, 163),grey);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    width : 500px;
+}
+.name{
+    font-size : 2rem;
+    margin-bottom: 3px;
+}
+.job{
+    font-size : 1.5rem;
+    margin-bottom : 3px;
+}
+.btn-container{
+    margin : 10px;
+}
+.btn-prev,.btn-next,.random-btn{
+    padding : 5px 10px;
+    border : none;
+    outline : none;
+    border-radius: 5px;
+    background-image: linear-gradient(purple,grey);
+    font-size : 1rem;
+    margin : 2px;
+}
